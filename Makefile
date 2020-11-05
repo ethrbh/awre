@@ -9,6 +9,6 @@ DEPS = wamper
 dep_wamper = git https://github.com/bwegh/wamper master
 
 TEST_DEPS = erwa
-dep_erwa = git https://github.com/ethrbh/erwa sync_with_original_master_branch_from_bwegh
+dep_erwa = git https://github.com/ethrbh/erwa master
 
 include erlang.mk
